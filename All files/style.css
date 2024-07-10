@@ -1,0 +1,130 @@
+root{
+    --primary-color:#34b2d8;
+    --secondary-color:#fff;
+    --background-color:#f4f4f4;
+    --card-background-color:#fff;
+    --card-shadow-color:rgba(0,0,00.2);
+    --margin:0.5rem;
+    --padding:0.5rem;
+}
+
+*{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size:2.5rem;
+    font-weight: bold;
+    
+
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size:1.2rem;
+    
+}
+
+.desc{
+    font-size:1.5rem;
+}
+
+
+body{
+    background-color:#f0f0f0;
+    color:#333;
+    font-family:"Roboto", sans-sarif;
+    font-weight: 100;
+    font-style:normal;
+    margin:0;
+    padding:0;
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.card{
+    width:325px;
+    background-color: #f0f0f0;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
+}
+/*--Navigation start--*/
+ nav ul {
+   list-style:none;
+   font-weight:bold;
+   padding:0;
+   margin:0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#08baf0;
+    font-size: 1.3rem;
+    font-weight:bold;
+
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration:none;
+    color:#04bff8;
+    font-size: 1.3rem;
+    font-weight:bold;
+}
+/*--button start--*/
+button{
+    color:rgb(0, 0, 0);
+    background-color:#34b2d8;
+    margin:0rem;
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    cursor:pointer;
+    
+}
+
+
+button:hover{
+    background-color:#fff;
+}
+/*--button ends--*/
+
+p{
+    text-align: center;
+}
+
+/*--Main start*/
+main{
+    width: 80%;
+    margin:auto;
+    padding: 1.2rem;
+
+}
+
+.shop{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow:0 0.2 0.4 var(--card-shadow-color);
+    margin:1.2 rem;
+    padding:1.2rem;
+}
+
+
+/*--footer start*/
+footer{
+   width:100%;
+   margin:0.5 0;
+}
+
